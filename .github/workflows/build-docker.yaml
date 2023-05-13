@@ -19,3 +19,5 @@ jobs:
       run: docker build . --file Dockerfile --tag joaolima07/python_api:$(date +%y-%m-%d_%H-%M)
     - name: Docker push
       run: docker push joaolima07/python_api:$(date +%y-%m-%d_%H-%M)
+
+      
