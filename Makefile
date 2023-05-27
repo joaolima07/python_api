@@ -19,7 +19,7 @@ call_home_10_times:
     done
 
 call_about_10_times:
-	 for i in $$(seq 1 10); do \
+	 for i in $$(seq 1 60); do \
         curl localhost:8080/about ; \
     done
 
